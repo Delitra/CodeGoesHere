@@ -1,0 +1,19 @@
+[
+    {
+        "modid": "ihavenoname",
+        "name": "I Have No Name",
+        "description": "I don't really do much right now???",
+        "version": "1.7.10-A1",
+        "mcversion": "1.7.10",
+        "url": "",
+        "updateUrl": "",
+        "authorList": [
+            "Delitra"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "parent": "",
+        "dependencies": []
+    }
+]
