@@ -1,6 +1,7 @@
 package com.delitra.ihnn;
 
 import com.delitra.ihnn.handler.ConfigurationHandler;
+import com.delitra.ihnn.init.ModItems;
 import com.delitra.ihnn.proxy.IProxy;
 import com.delitra.ihnn.reference.Reference;
 
@@ -25,6 +26,7 @@ public class IHaveNoName {
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		
+		ModItems.init();
 	}
 	
 	@Mod.EventHandler
